@@ -3,9 +3,6 @@
 namespace App\Http\Controllers;
 use App\Models\Post;
 
-
-
-
 class PostController extends Controller {
     function index () { 
         // // $data['list_user'] = User::has('produk')->get();
@@ -16,7 +13,6 @@ class PostController extends Controller {
         // $data ['list_user'] = User:: all();
         // return view('user.index', $data);
         
-
     }
     function create(){
         return view('post.create');
